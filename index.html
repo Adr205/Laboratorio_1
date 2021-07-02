@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Curriculum</title>
-    <style>
-        img {
-            width: 10rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab:wght@100;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@100;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,17 +22,18 @@
             </h1>
             <address>3806 John Henry St, El Paso TX 79938</address>
             <p>656-352-9786</p>
-            <nav>
-                <a href="https://github.com/Adr2312">Github Profesional</a>
-                <a href="https://github.com/Adr205">Github Institucional</a>
+            <nav class="git">
+                <a class="git__Prof" href="https://github.com/Adr2312">Github Profesional</a>
+                <a class="git__Inst" href="https://github.com/Adr205">Github Institucional</a>
             </nav>
         </center>
     </header>
 
     <main>
-        <h2>Objetivo</h2>
-        <p> - Un trabajo en el area de Desarrollo Front-End en una empresa de desarrollo.</p>
-
+        <div class="obj">
+        <h2 class="objetivo">Objetivo</h2>
+        <p class="objetivo"> - Un trabajo en el area de Desarrollo Front-End en una empresa de desarrollo.</p>
+    </div>
         <section>
             <h2>Experiencia</h2>
             <ul>
@@ -90,7 +92,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="intereses">
             <h2>Intereses</h2>
             <ul>
                 <li>AI</li>
@@ -101,7 +103,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="idiomas">
             <h2>Lenguajes</h2>
             <ul>
                 <li>Español</li>
@@ -113,7 +115,7 @@
 
         <footer>
             <center>
-                <h2>Lenguajes de Programacion</h2>
+                <h2 class="lang">Lenguajes de Programacion</h2>
                 <img src="./img/c++.png" alt="">
                 <span><img src="./img/css.svg" alt=""></span>
                 <span><img src="./img/html.png" alt=""></span>

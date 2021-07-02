@@ -1,0 +1,54 @@
+img {
+    width: 10rem;
+}
+
+
+header{
+    background-color: rgb(171, 226, 226);
+    margin-top: 4rem;
+    padding: 0 0 1.5rem 0;
+}
+
+.git__Prof, .git__Inst{
+    border-style: solid;
+    padding: 5px;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+body{
+    background-color: azure;
+    font-family: 'Raleway';
+    font-size: 400;
+}
+
+h1{
+    font-family: 'Roboto Slab';
+    font-size: 500;
+}
+address{
+    font-family: 'Roboto Slab';
+    font-size: 100;
+}
+
+.objetivo{
+    text-align: center;
+    font-family: 'Roboto Slab';
+}
+
+.intereses{
+    float: left;
+}
+
+.idiomas{
+    float: left;
+}
+
+footer{
+    clear: both;
+}
+
+.lang{
+    font-family: 'Tourney';
+    font-weight: 500;
+}
